@@ -11,7 +11,7 @@ CapsLock::Return
 j::{
   SendLevel 2
   if GetKeyState("CapsLock", "P") {
-    Send "^+j"
+    Send "{F13}"
   } else {
     Send "j"
   }
@@ -21,8 +21,8 @@ j::{
 VKBA::{
   SendLevel 2
   if GetKeyState("CapsLock", "P") {
-    Send "^+l"
+    Send "{F14}"
   } else {
-    Send "VKBA"
+    Send "{VKBA}"
   }
 }
